@@ -1,0 +1,37 @@
+add_namespace = germany
+
+
+country_event = {
+	id = germany.1
+        title = germany.1.t 
+        desc = germany.1.d 
+	picture =  GFX_report_courier
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We are interested
+        option = { 
+		name = germany.1.a 
+		OMH  = {
+		  country_event = { days = 5 id = omaha.5 }
+		}
+		ai_will_do = {
+			factor = 120
+		}
+        
+	}
+	    #Even if it exists, its probably fake.
+        option = { 
+		name = germany.1.b 
+			OMH = {
+			country_event = { days = 5 id = omaha.4 }
+		}
+		ai_will_do = {
+			factor = 80
+		}
+        
+	}
+	
+}

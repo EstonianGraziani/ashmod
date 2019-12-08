@@ -1,0 +1,40 @@
+﻿l_english:
+ ##Omaha Events
+ omaha.1.t:0 "A Proposal From Omaha"
+ omaha.1.d:0 "A courier came to an outpost in Missouri yesterday, said it came from Nebraska. An army captain red the letter and forwarded it to his superior. The letter went up the chain of command and eventually it found its way to your desk. The Survivalists in Omaha apparently have some intel relating to the Confederacy and the German Remnants. They say that it was intended to enter the CSA, but some 'interruptions' had it stuck in Nebraska. The Survivalists ask for payment on their terms for the intel."
+ omaha.1.a:0 "Yes... We are interested."
+ omaha.1.b:0 "No... We are not interested in your sham."
+ omaha.1.c:0 "What? Alert The Confederacy!"
+ omaha.2.t:0 "USA says No"
+ omaha.2.d:0 "A response has arrived from the Federalists. They have taken out note, burned it and brought back the contents in a paper bag. The courier who brought the bag went back east and didnt say a word except 'America's response.'"
+ omaha.2.a:0 "Argh! How did we know it was our letter?"
+ omaha.3.t:0 "USA says Yes"
+ omaha.3.d:0 "A response has arribed from the Federalists. They wish to continue negotiations about the intel, seeking negotiaton over payment. [OMH.GetLeader] has been invited to Indianapolis to further discuss the payment and the intel."
+ omaha.4.t:0 "Germans say No"
+ omaha.4.d:0 "The germans have given us a response, they have sent a message detailing their lack of interest with the intel, believing that it is fake even if we can 'conjure' up the 'evidence' to prove otherwise. They do not wish to continue the negotiations further."  
+ omaha.4.a:0 "Damnation!"
+ omaha.5.t:0 "Germans say Yes"
+ omaha.5.d:0 "The germans have told us that they are interested in further negotiations concerning the intelligence that we have. They are willing to pay us for the delivery, as the CSA has apparently refused to.  [OMH.GetLeader] is asked to send a response detailing the payment sooner than later." 
+ omaha.5.a:0 "Splendid!"  
+ omaha.6.t:0 "CSA says Yes"
+ omaha.6.d:0 "The Confederate States Of America have agreed to re-open negotiations surrounding the issue of the package. [OMH.GetLeader] is told to meet up with a CEAA agent in Tulsa, Oklahoma to further negotiate the deal. The letter informing us says that the package is still a state secret and that 'spilling the beans' about it to any foreign nations will be punished." 
+ omaha.6.a:0 "Splendid!"   
+ omaha.7.t:0 "CSA says No"
+ omaha.7.d:0 "The Confederate States Of America has refused to re-open negotiations, insisting that the payment stays 500 rifles. The letter informing us says that the package is still a state secret and that 'spilling the beans' about it to any foreign nations will be punished. If we still insist on not delivering the package, the CSA advises us to burn the documents." 
+ omaha.7.a:0 "We'll just find someone else then..."   
+ ##CSA Events
+ 
+ csa.1.t:0 "Alert From The North"
+ csa.1.d:0 "A messenger came through to Tenessee, going past the gates of the border there. Past the mortar positions and barbed wire, he rented a horse and rode into the town of Clarksville. This fresh face kept to himself and handed his horse over the horse rental company he rented it from. He caught a ride to the state capital of Nashville. In the streets of Nashville, he kept his brimmed hat on and covered his face with his coat. Stepping up the steps of the capitol, he was checked for guns and other contraband. His Colt Revolver was taken from him and he was allowed inside. The receptionist took him to the governor's office, where the messenger just left a note. The note travelled to New Orleans and it reads as follows. 'Forward this message to the President, let him (or her) know, that the survivalists know about some dealings you have in Nebraska and asked us to buy it from them.' What should we do now?"
+ csa.1.a:0 "We thank you for this information. We shall see to the survivalists."
+ csa.2.t:0 "Omaha wishes to re-open negotiations"
+ csa.2.d:0 "In the year 1934, the CEAA undertook an operation to scout out Manitoba for future expansion. The CEAA projected that Manitoba could reach a similar level of Confederate Control as Dakota by 1936. CEAA agents, dressed in civilian clothes, looked for possible scouts. They quickly knew to avoid Winnipeg's raider clans and the rest of Manitoba, but deep in the wastes of Manitoba, they found a settlement. It was a friendly one, and the agents took to chatting up a former geographer residing in the city. He had varied knowledge on the world, leaving Antarctica just two weeks before the Dark Month, he knew much about the alien technologies, thank god that he left early, who knows where he might have been today if not for him getting a bad fever? The agents offered him CSA citizenship and the fast track to Spanish citizenship, which would mean for the avarage survivor, escape from all the worries of the post-apocalypse. The geographer, having relatives in Spain, enthusiastically agreed. In exchange, he was to write a detailed dossier about the situation in Canada, any German military installations and possibilites of the land north and east of Manitoba. The agents left Manitoba, recalled over the concern of operational security due to the constant attacks on the Kansas Highway, giving the geographer a permit to enter the CSA and claim the spanish citizenship, but over a radio, the two parties kept in touch. In July 1935, the dossier was complete, the geographer sent it to Tulsa, Oklahoma. Along the way, it stopped in the Ranger State Of Dakota, where a survivalist courier was given the parcel and was told to deliver it to Omaha, where he was to give it over to a confederate courier. The geographer whereabout's are unknown right now, but we know where the survivalist courier is: He's dead. The Cannibals caught him near the 'border' of Omaha and the Cannibals, a skirmish developed and although the courier died, the dossier was secured. Unlike Dakota (They were paid in gold for their services.), Omaha was to be paid in weapons, 500 decent rifles and some military manuals. Omaha lost around 500 rifles in the skirmish due to a succesful break-in to the nearby armory and because of that, Omaha demanded 500 rifles to cover the cost of the skirmish. Our courier was sent home after we said no. The dossier was not as valuable by then. So Omaha keeps it. Trouble is, Omaha could use that dossier to blackmail us, a lot of people want us dead and that could be the glue to bring them together. If we don't take it off their hands, they might use it against us. Luckily, we don't have to make them mad by breaking in. They just want to talk the payment over and then deliver it to us."
+ csa.2.a:0 "We are willing to negotiate."
+ csa.2.b:0 "We will not be bent by provocation!"
+ 
+ ##Germany Events
+ germany.1.t:0 "Survivalists Send An Envoy"
+ germany.1.d:0 "The Survivalist Republic Of Omaha is a nation close to us, they are not a friendly  nation, but not openly hostile either. They are a competitor in the Iowa regionˇ, but now they've come to an outpost in Iowa, telling us that they have information related to Operation Alligator and the CSA that may be of great interest to us. The official seeing the survivalist envoy told him to give us the info over some water. The survivalist laughed a little and said no, saying that this is supposed to be the offer to open negotiations. Talk of this has travelled up the chain of command and questions about this have started to bother the ususally reserved Chancellor Diels. On a cold day, having a beer while sitting on a bench in the Minneapolis park, an official walks over to Diels, and asks how Germany will respond to this note. Diels, wanting to put this matter into bed, opens his mouth and says:"
+ germany.1.a:0 "'Yes... We will negotiate with them.'"
+ germany.1.b:0 "'No... Whatever they deliver is forgery at best.'"
+ 

@@ -1,0 +1,199 @@
+#Omaha Events
+
+add_namespace = omaha
+
+country_event = {
+	id = omaha.1 
+        title = omaha.1.t 
+        desc = omaha.1.d 
+	picture = GFX_report_secret_meeting 
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We are interested, do go on.
+        option = { 
+		name = omaha.1.a 
+		OMH = {
+			country_event = { days = 5 id = omaha.3 }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+                
+	}
+	
+        option = { # We are not intersted.
+		name = omaha.1.b
+		OMH = {
+			country_event = { days = 5 id = omaha.2 }
+		}
+                
+	}
+	
+        option = { # Alert The CSA!
+		name = omaha.1.c
+		OMH = {
+			country_event = { days = 5 id = omaha.2 }
+		}
+		CSA = {
+			country_event = { days = 5 id = csa.1 }
+		}
+                
+	}
+	
+}
+
+country_event = {
+	id = omaha.2 
+        title = omaha.2.t 
+        desc = omaha.2.d 
+	picture = GFX_report_secret_meeting 
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We are interested, do go on.
+        option = { 
+		name = omaha.2.a 
+        add_political_power = -20
+		set_country_flag = usa_denied_package
+                
+	}
+}
+
+country_event = {
+	id = omaha.3 
+        title = omaha.3.t 
+        desc = omaha.3.d 
+	picture = GFX_report_secret_meeting 
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We are interested, do go on.
+        option = { 
+		name = omaha.3.a 
+        add_political_power = 20
+		set_country_flag = usa_accepted_package
+                
+	}
+}
+
+country_event = {
+	id = omaha.4 
+        title = omaha.4.t 
+        desc = omaha.4.d 
+	picture = GFX_report_secret_meeting 
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We are interested, do go on.
+        option = { 
+		name = omaha.4.a 
+        add_political_power = -20
+		set_country_flag = ger_denied_package
+
+                
+	}
+}
+
+country_event = {
+	id = omaha.5
+        title = omaha.5.t 
+        desc = omaha.5.d 
+	picture = GFX_report_secret_meeting 
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We are interested, do go on.
+        option = { 
+		name = omaha.5.a 
+        add_political_power = 20
+		set_country_flag = ger_accepted_package
+                
+	}
+}
+
+country_event = {
+	id = omaha.6 
+        title = omaha.6.t 
+        desc = omaha.6.d 
+	picture = GFX_report_secret_meeting 
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We are interested, do go on.
+        option = { 
+		name = omaha.6.a 
+        add_political_power = 20
+		set_country_flag = csa_accpted_package
+
+                
+	}
+}
+
+country_event = {
+	id = omaha.7
+        title = omaha.7.t 
+        desc = omaha.7.d 
+	picture = GFX_report_secret_meeting 
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We are interested, do go on.
+        option = { 
+		name = omaha.7.a 
+        add_political_power = -20
+		set_country_flag = csa_denied_package
+                
+	}
+}
+
+country_event = {
+	id = omaha.8 
+        title = omaha.8.t 
+        desc = omaha.8.d 
+	picture = GFX_report_secret_meeting 
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We are interested, do go on.
+        option = { 
+		name = omaha.8.a 
+#		OMH = {
+#			country_event = { days = 5 id = omaha.9 }
+#		}
+                
+	}
+	
+        option = { # We are not intersted.
+		name = omaha.8.b
+#		OMH = {
+#			country_event = { days = 5 id = omaha.10 }
+#		}
+                
+	}
+	
+        option = { # What about 750?
+		name = omaha.1.c
+#		OMH = {
+#			country_event = { days = 5 id = omaha.11 }
+#		}
+                
+	}
+	
+}

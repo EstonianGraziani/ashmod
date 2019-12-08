@@ -1,0 +1,52 @@
+add_namespace = csa
+country_event = {
+	id = csa.1 
+        title = csa.1.t 
+        desc = csa.1.d 
+	picture = GFX_report_courier 
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #We thank you for this information.
+        option = { 
+		name = csa.1.a 
+        
+	}
+	
+}
+
+country_event = {
+	id = csa.2
+        title = csa.2.t 
+        desc = csa.2.d 
+	picture =  GFX_report_courier
+
+	is_triggered_only = yes 
+
+	hidden = no
+	
+	    #Re-open the negotiations.
+        option = { 
+		name = csa.2.a 
+			OMH = {
+			country_event = { days = 5 id = omaha.6 }
+		ai_will_do = {
+			factor = 200
+		}
+		}        
+	}
+	    #Kill the mailman on the spot and send back his body with a note.
+        option = { 
+		name = csa.2.b 
+			OMH = {
+			country_event = { days = 5 id = omaha.7 }
+		ai_will_do = {
+			factor = 0
+		}
+		}
+		
+	}
+	
+}
