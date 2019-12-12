@@ -1,0 +1,48 @@
+﻿capital = 277
+
+oob = "CRI_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	superior_firepower = 1
+	interwar_antiair = 1
+
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no	
+}
+set_popularities = {
+	democratic = 60
+	communism = 20
+	neutrality = 20
+}
+
+create_country_leader = {
+	
+	name = "Ramon Manlucas"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+	expire = "1965.1.1"
+	ideology = settler
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Enrique Gorostieta Velarde"
+	picture = "Portrait_Europe_Generic_land_2.dds"
+	traits = { war_hero }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}

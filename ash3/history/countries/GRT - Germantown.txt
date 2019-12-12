@@ -1,0 +1,46 @@
+﻿capital = 790
+
+oob = "GRT_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	superior_firepower = 1
+	interwar_antiair = 1
+
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no	
+}
+set_popularities = {
+	democratic = 80
+	communism = 20
+}
+
+create_country_leader = {
+	name = "Martin Horton"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = settler
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "John Mitchell"
+	picture = "Portrait_Europe_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 4
+}
