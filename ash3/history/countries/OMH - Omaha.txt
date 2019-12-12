@@ -1,0 +1,42 @@
+﻿capital = 806
+
+oob = "OMH_1936"
+
+add_ideas = {
+refuge_of_sanity
+omaha_agression
+army_lineage
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+set_war_support = 0.5
+set_convoys = 10
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 25
+	democratic = 75
+}
+
+create_country_leader = {
+	name = "Harold Ulbricht"
+	desc = "POLITICS_ULBRICHT_DESC"
+	picture = "albert_cushing_read.tga"
+	expire = "1965.1.1"
+	ideology = settler
+	traits = {
+		#
+	}
+}

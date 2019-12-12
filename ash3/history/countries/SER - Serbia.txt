@@ -1,0 +1,48 @@
+﻿capital = 108
+
+oob = "SER_1936"
+
+set_research_slots = 2
+
+add_ideas = {
+novi_sad_declaration
+}
+
+give_guarantee = VOJ
+
+set_technology = {
+	tech_support = 1		
+	early_fighter = 1
+	gwtank = 1
+	infantry_weapons = 1
+	fuel_silos = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 20
+	fascism = 10
+	communism = 20
+	neutrality = 50
+}
+
+
+set_stability = 0.6
+
+create_country_leader = {
+	name = "Alexander I"
+	desc = ""
+	picture = "Alexander_I.dds"
+	expire = "1965.1.1"
+	ideology = isolationism
+	traits = {
+		#
+	}
+}

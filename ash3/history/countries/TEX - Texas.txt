@@ -1,0 +1,88 @@
+﻿capital = 375
+
+oob = "TEX_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+    tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+}
+
+add_ideas = {
+effective_independence
+los_americanos_raids
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+	}
+}
+
+set_popularities = {
+	democratic = 70
+	fascism = 30
+}
+
+create_country_leader = {
+	name = "Wilbert Lee O'Daniel"
+	desc = ""
+	picture = "wilbert_odaniel.tga"
+	expire = "1953.3.1"
+	ideology = settler
+	traits = {
+		
+	}
+}
+
+#create_country_leader = {
+#	name = "James Allred"
+#	desc = ""
+#	picture = "james_allred.tga"
+#	expire = "1953.3.1"
+#	ideology = settler
+#	traits = {
+#		
+#	}
+#}
+
+create_country_leader = {
+	name = "Martin Dies Jr."
+	desc = ""
+	picture = "martin_dies_jr.tga"
+	expire = "1953.3.1"
+	ideology = conqueror
+	traits = {
+		
+	}
+}
+
+
+

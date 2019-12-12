@@ -1,0 +1,97 @@
+﻿ capital = 284
+
+oob = "NZL_1936"
+
+# Starting tech
+set_stability = 0.8	
+set_war_support = 0.7	
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gwtank = 1
+	gw_artillery = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	trench_warfare = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_battleship = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		basic_battery = 1
+		basic_light_battery = 1
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.27"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 86
+	neutrality = 14
+}
+
+create_country_leader = {
+	name = "Edward Graham"
+	desc = "POLITICS_GRAHAM_DESC"
+	picture = "billy_mitchell.tga"
+	expire = "1965.1.1"
+	ideology = settler
+	traits = {
+		#
+	}
+}
+
+set_convoys = 70
+
+create_corps_commander = {
+	name = "A.E Edward Graham"
+	gfx = "Portrait_NZL_Edward_Graham.dds"
+	traits = { trait_reckless }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Robert Row"
+	gfx = "GFX_NZL_robert_row"
+	traits = { naval_invader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Peter Phipps"
+	gfx = "GFX_NZL_peter_phipps"
+	traits = { navy_career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+}

@@ -1,0 +1,35 @@
+﻿capital = 793
+
+oob = "PHD_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+set_war_support = 0.5
+set_convoys = 10
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1934.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	communism = 80
+}
+
+create_country_leader = {
+	name = "Salvatore Sabella"
+	desc = "POLITICS_SABELLA_DESC"
+	picture = "Salvatore_Sabella.dds"
+	expire = "1965.1.1"
+	ideology = raider
+	traits = {
+		#
+	}
+}

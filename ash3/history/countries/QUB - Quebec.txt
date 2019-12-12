@@ -1,0 +1,47 @@
+﻿capital = 468
+
+oob = "QUB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	superior_firepower = 1
+	interwar_antiair = 1
+
+}
+
+set_convoys = 35
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no	
+}
+set_popularities = {
+	democratic = 55
+	neutrality = 45
+}
+
+create_country_leader = {
+	
+	name = "Maurice Duplessis"
+	picture = "Maurice_Duplessis.dds"
+	expire = "1965.1.1"
+	ideology = settler
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Jean Allard"
+	picture = "Portrait_Europe_Generic_land_3.dds"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 4
+}

@@ -1,0 +1,92 @@
+﻿capital = 683
+
+oob = "NOR_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_stability = 0.6
+set_war_support = 0.6
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	tech_recon = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1
+		early_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+	}
+}
+
+set_convoys = 50
+
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.10.19"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+
+create_country_leader = {
+	name = "Carsten Tank-Nielsen"
+	desc = "POLITICS_Carsten_Nielsen_DESC"
+	picture = "Carsten_Nielsen.dds"
+	expire = "1965.1.1"
+	ideology = isolationism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Otto Ruge"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = {  trickster winter_specialist }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Carsten Tank-Nielsen"
+	portrait_path = "Carsten_Nielsen.dds"
+	traits = { navy_career_officer inshore_fighter spotter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
+}

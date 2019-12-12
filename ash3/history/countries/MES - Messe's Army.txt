@@ -1,0 +1,43 @@
+﻿capital = 156
+
+oob = "MES_1936"
+
+set_research_slots = 2
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+
+set_stability = 0.2
+set_war_support = 0.6
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 50
+	communism = 15
+	democratic = 35
+}
+
+
+
+create_country_leader = {
+	name = "Giovanni Messe"
+	desc = ""
+	picture = "Giovanni_Messe.dds"
+	expire = "1965.1.1"
+	ideology = conqueror
+	traits = {
+		#
+	}
+}
