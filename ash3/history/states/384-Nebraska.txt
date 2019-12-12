@@ -1,0 +1,26 @@
+
+state={
+	id=384
+	name="STATE_384"
+
+	history={
+		owner = NEB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+            arms_factory = 1
+			
+		}
+		add_core_of = NEB
+		add_core_of = OMH
+
+
+	}
+
+	provinces={
+		1683 3613 3855 4830 7840 10606 12516  
+	}
+	manpower=‭88558‬
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
